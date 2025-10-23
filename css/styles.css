@@ -160,6 +160,13 @@ img {
     background-color: #2e2f42;
     width: 100%;
     padding: 188px 0;
+
+    background-image: linear-gradient(to bottom,
+         rgba(46, 47, 66, 0.7)),
+         url(../images/people-office1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
 }
 
 .hero-container {
@@ -167,8 +174,10 @@ img {
   flex-direction: column;       
   align-items: center;           
   justify-content: center;                  
-  text-align: center;            
+  text-align: center;  
+  
 }
+
 
 .hero-titel {
     font-weight: 700;
@@ -240,6 +249,19 @@ img {
     width: calc((100% - 72px) / 4);
 }
 
+.info-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 264px;
+    height: 112px;
+    padding: 24px, 100px;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    background: #f4f4fd;
+    margin-bottom: 8px;
+}
+
 .info-text {
     font-weight: 400;
     font-size: 16px;
@@ -265,11 +287,49 @@ img {
     gap: 24px;
 }
 
+.list-team-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.team-icon {
+
+    width: 40px;
+    height: 40px;
+
+}
+
+.team-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #4d5ae5;
+    width: 100%;
+    height: 100%;
+}
+
+.team-link:hover,
+.team-link:focus {
+    background-color: #404BBF;
+}
+
+.socials-item {
+    fill: currentColor;
+}
+
+
 .contacts-list-item {
     background-color: #FFFFFF;
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
     width: calc((100% - 24px * 3) / 4);
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background: #fff;
+    margin-bottom: 8px;
 }
 
 .contact-name-container {
@@ -291,6 +351,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 8px;
 }
 
 /* portfolio */
