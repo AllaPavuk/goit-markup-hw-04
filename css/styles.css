@@ -337,9 +337,9 @@ img {
     background-color: #404BBF;
 }
 
-/* .socials-item {
-    fill: currentColor;
-} */
+.socials-item {
+    fill: #fff;
+}
 
 
 .contacts-list-item {
