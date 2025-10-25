@@ -282,6 +282,10 @@ img {
     margin-bottom: 8px;
 }
 
+.info-item-icon {
+    fill: #2e2f42;
+}
+
 .info-text {
     font-weight: 400;
     font-size: 16px;
